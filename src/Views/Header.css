@@ -1,0 +1,62 @@
+.logo-text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+    letter-spacing: .02rem;
+    color: #0a0a0a;
+    line-height: 1.3;
+    font-size: 1.8rem;
+    padding: 0 16rem;
+  }
+
+  .site-logo{
+    width: 12rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .site-logo {
+      width: 10rem;
+    }
+  }
+
+  .menu-links {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #737373;
+    font-size: 1rem;
+    font-weight: 300;
+
+  }
+
+  .hellobar {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    background: #f3f4f5;
+    color: #737373;
+    padding: 1rem 2rem;
+    font-size: .9rem;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    position: relative;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .hellobar {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 400;
+      background: #f3f4f5;
+      color: #737373;
+      padding: 1rem 2rem;
+      font-size: .7rem;
+      height: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      position: relative;
+      text-align: center;    }
+  }
+
+  .max-width{
+    padding: 0 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }

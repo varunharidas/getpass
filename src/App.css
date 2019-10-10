@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  height: 100%;
+
+
+}
+html, body {
+  height: 100%;
+  position: relative;
+  overflow-y: overlay;
+}
+
+/* Begin fonts */
+
+
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(./fonts/IBM/IBMPlexSans-Light.woff2) format("woff2"),url(./fonts/IBM/IBMPlexSans-Light.woff) format("woff");
+  
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/IBM/IBMPlexSans-Regular.woff2) format("woff2"),url(./fonts/IBM/IBMPlexSans-Regular.woff) format("woff");
+  
+}
+

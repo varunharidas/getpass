@@ -1,0 +1,30 @@
+.footer-bottom {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    padding: 2rem 0;
+    color: #737373;
+    font-size: .8rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.footer-links {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #737373;
+    font-size: .8rem;
+    left: 5;
+    padding-left: 10px;
+    text-decoration: none;
+
+
+}
+
+.footer-links:hover{
+    color: #242424;
+    text-decoration: 'none'
+
+}
+
