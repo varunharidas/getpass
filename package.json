@@ -1,6 +1,6 @@
 {
-  "name": "password-react",
-  "version": "0.1.0",
+  "name": "getpass",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "generate-password": "^1.4.1",
