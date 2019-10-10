@@ -1,3 +1,5 @@
 
-Developemnt with listener: npm start
+Developemnt with listener: 
+
+npm start
 npm build
