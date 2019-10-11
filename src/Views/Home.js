@@ -5,12 +5,11 @@ import Header from "./Header.js";
 import Footer from "./Footer.js";
 import DocumentMeta from 'react-document-meta';
 
-
-
 import "./Home.css";
 import { setTimeout } from "timers";
 var handler, password;
 var generator = require("generate-password");
+
 
 export default class Home extends Component {
   state = {

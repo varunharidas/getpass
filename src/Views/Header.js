@@ -3,7 +3,13 @@ import "./Header.css";
 import { Collapse, Nav, NavLink, Navbar, NavbarBrand, NavItem, NavbarToggler, Alert} from 'reactstrap'; 
 import { NavLink as RRNavLink } from 'react-router-dom';
 import logo from './logo.svg';
+import ReactGA from 'react-ga';
 
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-127656145-1');
+  ReactGA.pageview('/');
+}
   
   
 
