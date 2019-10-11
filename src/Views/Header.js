@@ -6,12 +6,9 @@ import logo from './logo.svg';
 import ReactGA from 'react-ga';
 
 
-function initializeReactGA() {
   ReactGA.initialize('UA-127656145-1');
   ReactGA.pageview('/');
-}
-  
-  
+   
 
 class Header extends React.Component {
 
