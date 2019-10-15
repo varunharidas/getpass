@@ -3,9 +3,8 @@ import Home from './Views/Home';
 import About from './Views/About';
 import Privacy from './Views/Privacy';
 import {BrowserRouter, Route} from 'react-router-dom';
-
 import './App.css';
-
+//routing
 
 class App extends Component {
   render() {
