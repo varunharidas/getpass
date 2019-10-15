@@ -4,14 +4,10 @@ import { Collapse, Nav, NavLink, Navbar, NavbarBrand, NavItem, NavbarToggler, Al
 import { NavLink as RRNavLink } from 'react-router-dom';
 import logo from './logo.svg';
 import ReactGA from 'react-ga';
+const trackingId = "UA-127656145-2";
 
+ReactGA.initialize(trackingId);
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-127656145-1');
-  ReactGA.pageview('/');
-}
-  
-  
 
 class Header extends React.Component {
 
