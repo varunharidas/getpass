@@ -7,9 +7,7 @@ import ReactGA from 'react-ga';
 const trackingId = "UA-127656145-2";
 
 ReactGA.initialize(trackingId);
-
-  ReactGA.initialize('UA-127656145-1');
-  ReactGA.pageview('/');
+ReactGA.pageview('/');
    
 
 class Header extends React.Component {
