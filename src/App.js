@@ -8,7 +8,7 @@ import './App.css';
 //routing ss
 
 import ReactGA from 'react-ga';
-const trackingId = "UA-127656145-2";
+const trackingId = "UA-127656145-1";
 
 ReactGA.initialize(trackingId);
 ReactGA.pageview('/');
