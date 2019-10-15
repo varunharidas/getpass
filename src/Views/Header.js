@@ -3,11 +3,7 @@ import "./Header.css";
 import { Collapse, Nav, NavLink, Navbar, NavbarBrand, NavItem, NavbarToggler, Alert} from 'reactstrap'; 
 import { NavLink as RRNavLink } from 'react-router-dom';
 import logo from './logo.svg';
-import ReactGA from 'react-ga';
-const trackingId = "UA-127656145-2";
 
-ReactGA.initialize(trackingId);
-ReactGA.pageview('/');
    
 
 class Header extends React.Component {

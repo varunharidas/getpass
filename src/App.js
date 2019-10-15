@@ -4,7 +4,14 @@ import About from './Views/About';
 import Privacy from './Views/Privacy';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
-//routing
+
+//routing ss
+
+import ReactGA from 'react-ga';
+const trackingId = "UA-127656145-2";
+
+ReactGA.initialize(trackingId);
+ReactGA.pageview('/');
 
 class App extends Component {
   render() {
