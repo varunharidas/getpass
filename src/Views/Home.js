@@ -9,8 +9,9 @@ import "./Home.css";
 import { setTimeout } from "timers";
 var handler, password;
 var generator = require("generate-password");
-var hash = JSON.parse(localStorage.getItem('hash'))
+var hash = [];
 
+// JSON.parse(localStorage.getItem('hash'))
 
 
 export default class Home extends Component {
@@ -56,7 +57,6 @@ export default class Home extends Component {
   handleClick = async () => {
     await this.callApi(handler).then(this.setState({ password }));
     hash.push(password);
-    alert(hash); //logs
     localStorage.setItem('hash', JSON.stringify(hash));
   };
 
