@@ -11,7 +11,6 @@ var handler, password;
 var generator = require("generate-password");
 var hash = [];
 
-// JSON.parse(localStorage.getItem('hash'))
 
 
 export default class Home extends Component {
@@ -56,8 +55,16 @@ export default class Home extends Component {
 
   handleClick = async () => {
     await this.callApi(handler).then(this.setState({ password }));
+
+    if (localStorage.getItem("hash") === null) {
     hash.push(password);
     localStorage.setItem('hash', JSON.stringify(hash));
+    }
+    else{
+      hash = JSON.parse(localStorage.getItem('hash'))
+      hash.push(password);
+      localStorage.setItem('hash', JSON.stringify(hash));
+    }
   };
 
   changeText = async () => {
