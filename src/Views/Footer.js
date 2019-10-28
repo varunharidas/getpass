@@ -7,7 +7,7 @@ function Footer(/*props*/) {
   return (
     <div className="footer-bottom">
      
-      <span align="center" id="text">© 2018 Getpass.xyz</span> 
+      <span align="center" id="text">© 2019 Getpass.xyz</span> 
       <Link className="footer-links" to={{ pathname: '/privacy' }} style={{ textDecoration: 'none' }}>Privacy Policy</Link>
       
     </div>
