@@ -57,9 +57,6 @@ export default class Home extends Component {
     await this.callApi(handler).then(this.setState({ password }));
     hash.push(password);
     localStorage.setItem('hash', JSON.stringify(hash));
-
-
-    // localStorage.setItem('hash', password)
   };
 
   changeText = async () => {
