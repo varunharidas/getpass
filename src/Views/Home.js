@@ -56,6 +56,7 @@ export default class Home extends Component {
   handleClick = async () => {
     await this.callApi(handler).then(this.setState({ password }));
     hash.push(password);
+    alert(hash); //logs
     localStorage.setItem('hash', JSON.stringify(hash));
   };
 
